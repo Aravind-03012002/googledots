@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ba{
+             width: 300px;
+            /* height: 100px; */
+            position: absolute;
+            background-color: rgb(14, 15, 15);
+            display: flex;
+            border: 7px solid rgb(22, 14, 65);
+            justify-content: center;
+            align-items:center ;
+            height: 80vh;
+            gap: 5px;
+            background-size: 200px;
+        }
+        .bo{
+            display: flex;
+            gap: 5px;
+        }
+        .g{
+            position: absolute;
+            left : 80px;
+            top: 130px;
+            font-size: 40px;
+
+        }
+        .a{
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0px 0px 0px 2px rgb(2, 66, 91);
+            background-color: skyblue;
+            animation: google 1s ;
+            animation-iteration-count: infinite;
+        }
+        .b{
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0px 0px 0px 2px rgb(75, 7, 2);
+            background-color: red;
+            animation: red 1s ;
+            animation-iteration-count: infinite;
+        }
+        .c{
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0px 0px 0px 2px rgb(159, 185, 12);
+            background-color: yellow;
+            animation: yellow 1s ;
+            animation-iteration-count: infinite;
+        }
+        .d{
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0px 0px 0px 2px rgb(6, 100, 14);
+            background-color: green;
+            animation: green 1s ;
+            animation-iteration-count: infinite;
+            /* animation-timing-function: ease-in-out; */
+        }
+        @keyframes google {
+            0%{
+                transform:translatey(20px);
+            }
+            100%{
+
+            }
+        }
+        @keyframes red {
+            0%{
+
+            }
+           25%{
+            transform:translatey(25px);
+           } 
+        }
+        @keyframes yellow {
+            0%{
+
+            }
+           50%{
+            transform:translatey(30px);
+           }
+
+        }
+        @keyframes green {
+            0%{
+
+            }
+           25%{
+            /* transform:translatey(25px); */
+           } 
+           50%{
+            /* transform:translatey(50px); */
+           }
+           100%{
+            transform:translatey(35px);
+           }
+        }
+        .g1{
+            color: skyblue;
+            box-shadow: 0px 0px 0px 1px skyblue;
+            position: relative;
+            padding:4px;
+        }
+        .g2{
+            color: skyblue;
+            box-shadow: 0px 0px 0px 1px skyblue;
+        }
+        .o{
+            color: red;
+            box-shadow: 0px 0px 0px 1px red;
+            
+        }
+        .o1{
+            color: yellow;
+            box-shadow: 0px 0px 0px 1px yellow;
+            position: relative;
+            padding:4px;
+        }
+        .l{
+            color: green ;
+            box-shadow: 0px 0px 0px 1px green;
+            position: relative;
+            padding-top:4px;
+            padding-left: 5px;
+        }
+        .e{
+            color: red;
+            box-shadow: 0px 0px 0px 1px red;
+        }
+        .lo{
+            color: aliceblue;
+            border: 0px;
+            position: absolute;
+            bottom: 140px;
+            right: 110px;
+            text-shadow: 1px 1px 1px white;
+        }
+        .ima{
+            width: 200px;
+            height: 70px;
+            position: absolute;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ba">
+    <img class="ima" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_XUd65bghpgGxjEP3Aq_YLEOHRoBsGnyEg&s" alt="">
+    <div class="g"><span class="g1">G</span><span class="o">o</span><span class="o1"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M456-600h320q-27-69-82.5-118.5T566-788L456-600Zm-92 80 160-276q-11-2-22-3t-22-1q-66 0-123 25t-101 67l108 188ZM170-400h218L228-676q-32 41-50 90.5T160-480q0 21 2.5 40.5T170-400Zm224 228 108-188H184q27 69 82.5 118.5T394-172Zm86 12q66 0 123-25t101-67L596-440 436-164q11 2 21.5 3t22.5 1Zm252-124q32-41 50-90.5T800-480q0-21-2.5-40.5T790-560H572l160 276ZM480-480Zm0 400q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Z"/></svg></span><span class="g2">g</span><span class="l">l</span><span class="e">e</span></div>
+    <div class="bo">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="lo">Loading...</div>
+</div>
+</body>
+</html>
